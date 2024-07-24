@@ -10,7 +10,6 @@ from head_detection import detect_head
 from smile_detection import detect_smiles
 
 app = Flask(__name__)
-app.config['MAX_CONTENT_LENGTH'] = 3000 * 1024 * 1024
 
 @app.route("/")
 def hello():
