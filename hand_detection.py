@@ -61,5 +61,3 @@ def detect_hands(video_path):
     cv2.destroyAllWindows()
 
     return hand_count
-
-print(detect_hands("video.mp4"))
