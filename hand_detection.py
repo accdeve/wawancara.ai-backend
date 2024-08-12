@@ -52,10 +52,10 @@ def detect_hands(video_path):
         prev_hand_status = current_hand_status
 
        
-        cv2.imshow('Frame', img)
+        # cv2.imshow('Frame', img)
 
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
+        # if cv2.waitKey(1) & 0xFF == ord('q'):
+        #     break
 
     cap.release()
     cv2.destroyAllWindows()
